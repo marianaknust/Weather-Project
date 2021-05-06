@@ -35,7 +35,7 @@
   color: #43a6f5;
 }
 
-.daily-temperature {
+.class daily-temperature {
   display: block;
   color: #1eb3a9;
   font-size: 28px;
@@ -63,5 +63,4 @@
   height: 25px;
   width: 70px;
   margin: 0 10px;
-  
 }

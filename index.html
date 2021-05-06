@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="styles.css" />
     <script src="https://kit.fontawesome.com/017d955ac1.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <title>Weather app Nana</title>
+    <title>Weather App</title>
 </head>
 <body>
     <div class="container"> 
@@ -22,12 +22,12 @@
         <button class="col-3 button" id="current">
             Current
         </button>
-        <div class="col-3 scale">
+        <!-- <div class="col-3 scale">
         <input type="radio" id="Fahrenheit" name="imperial" value="°F" checked>
         <label for="°F">°F</label>
         <input type="radio" id="Celsius" name="metric" value="°C">
         <label for="°C">°C</label>
-        </div>
+        </div> -->
     
     </div>
     </form>
@@ -35,8 +35,9 @@
     <div class="col-6">
         <span class="city"> Rio de Janeiro </span>
         <span class="date" id="current-date"> Thursday, 18th March 2021</span>
-        <span class="daily-temperature"> 45°C </span>           
-        <i class="fas fa-sun"></i>
+        <strong id="temperature">45</strong><span class="units"> °C | <a href="#" id=fahrenheit-link>°F</a></span>
+
+   
     </div>
 
 
@@ -61,8 +62,8 @@
             </div>
         </div>
 
-        <hr>
-        <div class="row">
+        <!-- <hr> -->
+        <!-- <div class="row">
             <div class=col-2> FRI 
             </br> 
                 35°C
@@ -100,7 +101,7 @@
             <i class="fas fa-cloud"></i>
             </div>
           
-        </div>
+        </div> -->
     </div>
     <small>
     <a href="https://github.com/marianaknust/Weather-Project" target="_blank"> Open-source code</a>
